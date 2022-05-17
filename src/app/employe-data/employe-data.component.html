@@ -1,0 +1,15 @@
+<table>
+    <thead>
+        <th>E_Name</th> <th>E_Salary</th> <th>E_Department</th> <th>E_City</th> <th>E_Manager</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of employ-data">
+            <td>{{emp.name}}</td> 
+             <td>{{emp.salary}}</td>
+              <td>{{emp.department}}</td>
+               <td>{{emp.city}}</td> 
+               <td>{{emp.manager}}</td>
+            
+        </tr>
+    </tbody>
+</table>
